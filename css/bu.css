@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-image: url(https://images8.alphacoders.com/844/thumb-1920-844141.jpg);
+    background-size: cover;
+}
+.ti1{
+    font-size: 120px;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:2px 2px whitesmoke,-2px -2px whitesmoke;
+}
+.ti2{
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:2px 2px whitesmoke,-2px -2px whitesmoke;
+}
+.ta_1{
+    border-spacing: 40px;
+    margin-left: 20%;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow:1px 1px whitesmoke,-1px -1px whitesmoke;
+}
+td{
+    /* background-color: aqua; */
+}
+tr{
+    /* background-color: blue; */
+}
+@keyframes run{
+    0% {left:0px}
+    100%{left: 600px;}
+}
+.hero1{
+    animation-name: run;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    position : relative;
+}
+.hero2{
+    animation-name: run;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    position : relative;
+}
+.hero3{
+    animation-name: run;
+    animation-duration: 10s;
+    animation-timing-function:ease-out;
+    position : relative;
+}
