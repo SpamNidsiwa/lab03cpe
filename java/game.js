@@ -46,6 +46,9 @@ button3[0].addEventListener("click",function(){
 });
 
 function run(){
+    button1[0].style.display = "none";
+    button2[0].style.display = "none";
+    button3[0].style.display = "none";
     hero_1[0].style.animationPlayState="running";
     hero_2[0].style.animationPlayState="running";
     hero_3[0].style.animationPlayState="running";
