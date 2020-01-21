@@ -55,3 +55,7 @@ tr{
     animation-timing-function:ease-out;
     position : relative;
 }
+a{
+    color:black;
+    text-decoration: none;
+}
